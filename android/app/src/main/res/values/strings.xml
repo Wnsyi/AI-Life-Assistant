@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Life Assistant</string>
+    <string name="welcome_message">AI 生活助手</string>
+    <string name="app_slogan">你的智能生活伙伴</string>
+</resources>

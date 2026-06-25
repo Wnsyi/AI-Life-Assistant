@@ -1,0 +1,138 @@
+/* ============================================
+   LoginPage.css — 登录注册页样式
+   ============================================ */
+
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f5f5f7;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.login-logo {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.login-subtitle {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 24px;
+}
+
+/* Tab 切换 */
+.login-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.login-tab {
+  flex: 1;
+  padding: 10px 0;
+  border: none;
+  background: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  color: #888;
+  transition: all 0.2s;
+}
+
+.login-tab.active {
+  background: #4d6bfe;
+  color: #fff;
+}
+
+.login-tab:hover:not(.active) {
+  background: #f5f5f7;
+}
+
+/* 表单 */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-input {
+  padding: 12px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.login-input:focus {
+  border-color: #4d6bfe;
+  box-shadow: 0 0 0 3px rgba(77, 107, 254, 0.1);
+}
+
+.login-error {
+  color: #e53e3e;
+  font-size: 13px;
+  text-align: left;
+  padding: 8px 12px;
+  background: #fff5f5;
+  border-radius: 8px;
+}
+
+.login-btn {
+  padding: 12px 0;
+  border: none;
+  border-radius: 10px;
+  background: #4d6bfe;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 4px;
+}
+
+.login-btn:hover:not(:disabled) {
+  background: #3b5be0;
+}
+
+.login-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.login-hint {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+.login-switch {
+  color: #4d6bfe;
+  cursor: pointer;
+  margin-left: 4px;
+  font-weight: 500;
+}
+
+.login-switch:hover {
+  text-decoration: underline;
+}

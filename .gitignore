@@ -1,0 +1,71 @@
+# ============================================
+# AI 生活助手 — 根级 .gitignore
+# ============================================
+
+# ─── Node.js (client) ─────────────────────
+node_modules/
+client/node_modules/
+client/build/
+client/dist/
+
+# ─── Java / Maven (server) ────────────────
+server/target/
+*.class
+*.jar
+*.war
+*.log
+!.mvn/wrapper/maven-wrapper.jar
+
+# ─── IDE 配置 ─────────────────────────────
+# IntelliJ IDEA
+.idea/
+server/.idea/
+android/.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Android Studio
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/captures/
+android/.externalNativeBuild/
+
+# ─── 操作系统 ─────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ─── 环境变量 & 密钥 ─────────────────────
+.env
+.env.local
+.env.production
+*.key
+*.pem
+application-local.yml
+server/src/main/resources/application-local.yml
+
+# ─── 日志 ────────────────────────────────
+*.log
+logs/
+
+# ─── 临时文件 ────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig
+
+# ─── Docker ──────────────────────────────
+docker-compose.override.yml
+
+# ─── Claude Code ─────────────────────────
+.claude/

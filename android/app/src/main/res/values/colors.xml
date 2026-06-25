@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主色调 -->
+    <color name="primary">#4E6EF2</color>
+    <color name="primary_dark">#3B5DE7</color>
+    <color name="accent">#4E6EF2</color>
+
+    <!-- 浅色背景 -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F7F7F7</color>
+    <color name="card_background">#F7F7F7</color>
+
+    <!-- 文字色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#9CA3AF</color>
+
+    <!-- 消息气泡 -->
+    <color name="bubble_user">#4E6EF2</color>
+    <color name="bubble_ai">#F3F4F6</color>
+
+    <!-- 基础色 -->
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

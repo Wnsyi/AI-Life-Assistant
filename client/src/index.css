@@ -1,0 +1,52 @@
+/* ============================================
+   index.css — 全局样式
+   整个网站的基础样式从这里开始
+   ============================================ */
+
+/* 重置浏览器默认样式，消除不同浏览器的差异 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* 链接样式 */
+a {
+  color: #4d6bfe;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
